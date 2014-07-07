@@ -2,9 +2,9 @@ package basics
 {
 	public class Queryable
 	{
-		public function Queryable()
+		public function Queryable(tDic:Object=null)
 		{
-			dic={};
+			dic=tDic;
 		}
 		
 		public var dic:Object;
